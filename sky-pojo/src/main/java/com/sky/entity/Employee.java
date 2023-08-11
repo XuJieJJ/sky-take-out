@@ -9,6 +9,9 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
+/**
+ * builder 构建器
+ */
 @Data
 @Builder
 @NoArgsConstructor
