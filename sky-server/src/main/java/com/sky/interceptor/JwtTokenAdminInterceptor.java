@@ -40,6 +40,7 @@ public class JwtTokenAdminInterceptor implements HandlerInterceptor {
         if (!(handler instanceof HandlerMethod)) {
             //当前拦截到的不是动态方法，直接放行
             return true;
+            //测试网络
         }
 
         //1、从请求头中获取令牌
