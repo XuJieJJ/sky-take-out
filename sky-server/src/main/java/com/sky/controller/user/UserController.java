@@ -50,7 +50,8 @@ public class UserController {
                 .token(token)
                 .build();
 
-
+        System.out.println("登录成功");
         return  Result.success(userLoginVO);
+
     }
 }
